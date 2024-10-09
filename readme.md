@@ -1,3 +1,4 @@
+
 ## Setup
 ##### Windows
 
@@ -10,6 +11,11 @@
 - Now move all your terminals to your project directory.
 	```bash
 	cd /your/project/location/phase_01/
+	```
+- Initialize the database data.
+	```bash
+	#placeholder host, port, user and password use your own
+	mysql -h 127.0.0.1 -P 1234 -uroot -pmypassword < create_sql.sql
 	```
 
 - Now, in a single terminal create the virtual environment and install the requirements.
@@ -36,3 +42,4 @@
 		```bash
 		python client.py
 		```
+
