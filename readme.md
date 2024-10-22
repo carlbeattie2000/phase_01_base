@@ -14,8 +14,7 @@
 	```
 - Initialize the database data.
 	```bash
-	#placeholder host, port, user and password use your own
-	mysql -h 127.0.0.1 -P 1234 -uroot -pmypassword < create_sql.sql
+	sqlite3 tax.db < create_sql.sql
 	```
 
 - Now, in a single terminal create the virtual environment and install the requirements.
